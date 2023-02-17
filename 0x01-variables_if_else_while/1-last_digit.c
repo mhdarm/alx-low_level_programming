@@ -1,6 +1,6 @@
 i/*
  * File: 1-last_digit.c
- * Auth: Mohammed Bin Dawuda Arimiyao
+ * Auth: Mohammed Arimiyao
  */
 
 #include <stdlib.h>
@@ -18,7 +18,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 4;
+	n = rand() - RAND_MAX / 2;
 
 	if ((n % 10) > 5)
 	{
