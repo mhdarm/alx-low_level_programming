@@ -2,21 +2,20 @@
 
 int main(void);
 {
-int n;
-int a[5];
-int *p;
+	int n;
+	int a[5];
+	int *p;
 
-a[2] = 1024;
-p = &n;
-
+	a[2] = 1024;
+	p = &n;
 /*
  * write your line of code here...
- * Remeber:
- * ~ you're not allowed to use a
- * ~ you're not allowed to modify p
- * ~ only one statement
- * ~ you're noy allowed to code anything apart from this line of code
- * return 0
+ * Remember:
+ * - you are not allowed to use a
+ * - you are not allowed to modify p
+ * - only one statement
+ * - you are not allowed to code anything else
+ * than this line of code at the expected line
  */
 
 *(p + 5) = 98;
